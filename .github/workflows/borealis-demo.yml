@@ -1,7 +1,7 @@
 name: Deploy my latest version
 
 on: 
-  [push] # What triggers a deployment. For example, `push`.
+  ['push'] # What triggers a deployment. For example, `push`.
     branches:
       - main # What branch triggers a deployment. For example, `main`.
 
