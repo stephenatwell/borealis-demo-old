@@ -13,7 +13,7 @@ targets:
     # This is the key to a strategy under the strategies map
     strategy: strategy1
     # This is a list of manifest names that should be included in this deployment
-# The list of manifests sources
+# The list of manifests sources 
 manifests:
   # This will read all yaml|yml files in a dir and deploy all manifests in that directory to all targets.
   - path: /manifests/hostname.yml
