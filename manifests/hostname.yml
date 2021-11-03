@@ -15,7 +15,7 @@ spec:
         app: hostname
     spec:
       containers:
-      - image: rstarmer/hostname:v3
+      - image: rstarmer/hostname:v3 
         imagePullPolicy: Always
         name: hostname
         resources: {}
